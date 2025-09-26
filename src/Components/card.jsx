@@ -6,6 +6,7 @@ export default function Card({ ident, url, a }) {
       <img
         key={ident}
         src={url}
+        loading="lazy"
         alt={a}
         className="w-full h-full object-cover transition-transform duration-500 hover:scale-110 "
       />
